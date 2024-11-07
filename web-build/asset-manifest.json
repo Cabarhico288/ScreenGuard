@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c03fa1c4.css",
+    "main.js": "/static/js/main.ca0a0d25.js",
+    "static/js/666.5808c62b.js": "/static/js/666.5808c62b.js",
+    "static/media/child.png": "/static/media/child.1d6b996a981a819a4ba1.png",
+    "static/media/parent.png": "/static/media/parent.6352c3e713413c105c41.png",
+    "static/media/TermsCondition.png": "/static/media/TermsCondition.dd1164c79323f8568724.png",
+    "static/media/RoleSelection.png": "/static/media/RoleSelection.fba69b26a4367b0b81fa.png",
+    "static/media/Ionicons.ttf": "/static/media/Ionicons.9b6b1954a5eb6efeaf11.ttf",
+    "static/media/MaterialIcons.ttf": "/static/media/MaterialIcons.f20305dee9d396fea5c7.ttf",
+    "static/media/FontAwesome5_Solid.ttf": "/static/media/FontAwesome5_Solid.07c3313b24f7b1ca85ee.ttf",
+    "static/media/FontAwesome.ttf": "/static/media/FontAwesome.1e59d2330b4c6deb84b3.ttf",
+    "static/media/FontAwesome5_Brands.ttf": "/static/media/FontAwesome5_Brands.9e138496e8f1719c6ebf.ttf",
+    "static/media/ScreenGuard.png": "/static/media/ScreenGuard.929996426defcb4407d9.png",
+    "static/media/AntDesign.ttf": "/static/media/AntDesign.163adab9dbd7cb1ed12a.ttf",
+    "static/media/Entypo.ttf": "/static/media/Entypo.fc6169344c041cffcdae.ttf",
+    "static/media/FontAwesome5_Regular.ttf": "/static/media/FontAwesome5_Regular.1017bce89c72f95bcf8e.ttf",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "favicon-32.png": "/favicon-32.png",
+    "static/media/marker-icon.png": "/static/media/marker-icon.2b3e1faf89f94a483539.png",
+    "static/media/layers-2x.png": "/static/media/layers-2x.8f2c4d11474275fbc161.png",
+    "favicon-16.png": "/favicon-16.png",
+    "manifest.json": "/manifest.json",
+    "serve.json": "/serve.json",
+    "main.c03fa1c4.css.map": "/static/css/main.c03fa1c4.css.map",
+    "main.ca0a0d25.js.map": "/static/js/main.ca0a0d25.js.map",
+    "666.5808c62b.js.map": "/static/js/666.5808c62b.js.map"
+  },
+  "entrypoints": [
+    "static/js/666.5808c62b.js",
+    "static/css/main.c03fa1c4.css",
+    "static/js/main.ca0a0d25.js"
+  ]
+}

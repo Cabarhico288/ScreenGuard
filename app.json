@@ -1,0 +1,87 @@
+{
+  "expo": {
+    "name": "ScreenGuardProject",
+    "slug": "ScreenGuardProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "com.screenguardproject",
+    "platforms": ["ios", "android", "web"],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.screenguardproject",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires access to the camera to take photos for your profile.",
+        "NSLocationWhenInUseUsageDescription": "This app requires access to your location to provide location-based services.",
+        "NSPhotoLibraryUsageDescription": "This app requires access to your photo library to upload profile pictures."
+      }
+    },
+    "android": {
+      "package": "com.screenguardproject",
+      "permissions": [
+        "INTERNET",
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "runtimeVersion": "1.0.0",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "https",
+              "host": "auth.expo.io",
+              "pathPrefix": "/@your-username/ScreenGuardProject"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "1050333786542847",
+          "clientToken": "d04db17e0a9976a99c3e83b975fe5c87",
+          "displayName": "ScreenGuardProject",
+          "advertiserIDCollectionEnabled": true,
+          "autoLogAppEventsEnabled": true,
+          "isAutoInitEnabled": true,
+          "iosUserTrackingPermission": "We will use this permission to improve your experience by delivering personalized ads."
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f309c2bf-72cc-4fc7-a2e8-77acc636017e"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f309c2bf-72cc-4fc7-a2e8-77acc636017e"
+    }
+  }
+}
